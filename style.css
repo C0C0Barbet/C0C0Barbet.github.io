@@ -162,21 +162,7 @@ a.imageLink {
     border-radius: 12px;
 }
 
-#UAA1{
-    text-shadow: .3px .3px black;
-    font-size: larger;
-    font-family: "Monaco", "Courier New", monospace;
-    background: white;
-    color: rgb(30, 81, 61);
-}
-
-#UAA2{
-    font-family: "Monaco", "Courier New", monospace;
-    background: white;
-    color: rgb(251, 192, 28);
-}
 #MACC1{
-    text-shadow: .3px .3px black;
     font-size: larger;
     font-family: "Monaco", "Courier New", monospace;
     background: white;
@@ -184,9 +170,38 @@ a.imageLink {
 }
 
 #MACC2{
+    font-size: larger;
     font-family: "Monaco", "Courier New", monospace;
     background: white;
     color: grey;
+}
+
+#MACC3{
+    font-size: large;
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: black;
+}
+
+#UAA1{
+    font-size: larger;
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: rgb(30, 81, 61);
+}
+
+#UAA2{
+    font-size: larger;
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: rgb(251, 192, 28);
+}
+
+#UAA3{
+    font-size: large;
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: black;
 }
 
 #skill-info {
