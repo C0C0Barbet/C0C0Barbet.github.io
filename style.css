@@ -97,10 +97,7 @@ a.imageLink {
     color: black;
     grid-column: 1 / span 4;
     grid-row: 3 / span 2;
-    border-top: 5px solid black;
-    border-left: 5px solid black;
-    border-bottom: 2.5px solid black;
-    border-right: 2.5px solid black;
+    border: 5px solid black;
     background: white;
     border-radius: 12px;
 }
