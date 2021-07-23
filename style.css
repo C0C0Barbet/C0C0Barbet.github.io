@@ -19,14 +19,17 @@ a.imageLink {
     max-width: 100%;
     height: auto;
     width: auto\9;
-    /* ie8 */
     border-radius: 200px;
     box-sizing: border-box;
-    border: 10px solid whitesmoke;
+    border: 10px solid lightblue;
     opacity: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.break{
+    padding: 5px;
 }
 
 #name {
@@ -36,33 +39,41 @@ a.imageLink {
     color: black;
     grid-column: 1 / span 1;
     grid-row: 1;
-    border-top: 5px solid whitesmoke;
-    border-left: 5px solid whitesmoke;
-    border-bottom: 5px solid whitesmoke;
-    border-right: 2.5px solid whitesmoke;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
     padding-bottom: 10px;
-    background: lightblue;
+    background: white;
     font-size: 2vw;
     border-radius: 12px;
 }
 
 #socials {
-    font-family: "Monaco", "Courier New", monospace;
-    text-align: left;
-    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     background: white;
     color: black;
     grid-column: 2 / span 3;
     grid-row: 1;
-    border-top: 5px solid whitesmoke;
-    border-right: 5px solid whitesmoke;
-    border-bottom: 5px solid whitesmoke;
-    border-left: 2.5px solid whitesmoke;
-    background: lightblue;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 2.5px solid black;
+    background: white;
     border-radius: 12px;
 }
 
+#about{
+    font-family: "Monaco", "Courier New", monospace;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #about-section {
+    padding: 5px;
     font-family: "Monaco", "Courier New", monospace;
     text-align: left;
 }
@@ -70,7 +81,6 @@ a.imageLink {
 #projects {
     font-family: "Monaco", "Courier New", monospace;
     padding: 5px;
-    -webkit-text-stroke: .5px white;
     color: black;
     grid-column: 1 / span 2;
     grid-row: 2;
@@ -87,11 +97,11 @@ a.imageLink {
     color: black;
     grid-column: 1 / span 4;
     grid-row: 3 / span 2;
-    border-top: 5px solid whitesmoke;
-    border-left: 5px solid whitesmoke;
-    border-bottom: 2.5px solid whitesmoke;
-    border-right: 2.5px solid whitesmoke;
-    background: lightblue;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    background: white;
     border-radius: 12px;
 }
 
@@ -101,7 +111,8 @@ a.imageLink {
     font-family: "Monaco", "Courier New", monospace;
     text-align: center;
     color: black;
-    padding: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 #proj-title2 {
@@ -110,7 +121,8 @@ a.imageLink {
     color: black;
     grid-column: 3 / span 2;
     grid-row: 3;
-    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 #proj-title3 {
@@ -119,13 +131,12 @@ a.imageLink {
     color: black;
     grid-column: 1 / span 4;
     grid-row: 4;
-    padding: 5px;
+    padding-top: 15px;
 }
 
 #education {
     font-family: "Monaco", "Courier New", monospace;
     padding: 5px;
-    -webkit-text-stroke: .5px white;
     color: #000000;
     grid-column: 1 / span 2;
     grid-row: 5;
@@ -134,25 +145,48 @@ a.imageLink {
 #skills {
     font-family: "Monaco", "Courier New", monospace;
     padding: 5px;
-    -webkit-text-stroke: .5px white;
     color: black;
     grid-column: 3 / span 2;
     grid-row: 5;
 }
 
 #edu-info {
-    font-family: "Monaco", "Courier New", monospace;
     padding: 15px;
-    background: white;
-    color: black;
     grid-column: 1 / span 2;
     grid-row: 6;
-    border-top: 5px solid whitesmoke;
-    border-left: 5px solid whitesmoke;
-    border-bottom: 5px solid whitesmoke;
-    border-right: 2.5px solid whitesmoke;
-    background: lightblue;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
+    background: white;
     border-radius: 12px;
+}
+
+#UAA1{
+    text-shadow: .3px .3px black;
+    font-size: larger;
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: rgb(30, 81, 61);
+}
+
+#UAA2{
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: rgb(251, 192, 28);
+}
+#MACC1{
+    text-shadow: .3px .3px black;
+    font-size: larger;
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: red;
+}
+
+#MACC2{
+    font-family: "Monaco", "Courier New", monospace;
+    background: white;
+    color: grey;
 }
 
 #skill-info {
@@ -162,10 +196,10 @@ a.imageLink {
     color: black;
     grid-column: 3 / span 2;
     grid-row: 6;
-    border-top: 5px solid whitesmoke;
-    border-right: 5px solid whitesmoke;
-    border-bottom: 5px solid whitesmoke;
-    border-left: 2.5px solid whitesmoke;
-    background: lightblue;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 2.5px solid black;
+    background: white;
     border-radius: 12px;
 }
