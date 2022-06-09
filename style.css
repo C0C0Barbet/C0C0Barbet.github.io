@@ -23,8 +23,8 @@ a.imageLink {
     margin-right: auto;
 }
 
-.background {
-    background: lightblue;
+.background { background: rgb(0,32,36);
+    background: linear-gradient(360deg, rgba(0,32,36,0) 0%, rgba(9,121,65,1) 50%, rgba(0,212,255,1) 100%); 
 }
 
 .my-image {
